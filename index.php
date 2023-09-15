@@ -6,7 +6,7 @@ ini_set('error_logs','off');
 error_reporting(0);
 unlink('MadelineProto.log');
 define('MADELINE_BRANCH', 'deprecated');
-//End
+//End:
 //include MadeLineProto :
 include 'madeline.php';
 //End
