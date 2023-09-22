@@ -2,7 +2,7 @@
 	if (!file_exists('madeline.php')) {
  copy('https://phar.madelineproto.xyz/madeline.php','madeline.php');
 }
-ini_set('error_logs','off');
+ini_set('error_logs','off')
 error_reporting(0);
 unlink('MadelineProto.log');
 define('MADELINE_BRANCH', 'deprecated');
