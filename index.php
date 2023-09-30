@@ -20,6 +20,7 @@ include 'madeline.php';
     header('Connection: close');
     ignore_user_abort(true);
     ob_start();
+    $num2 = 3;
     echo '<html><body><h1>'.$message.'</h1></body</html>';
     $size = ob_get_length();
     header("Content-Length: $size");
