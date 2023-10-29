@@ -10,7 +10,6 @@ define('MADELINE_BRANCH', 'deprecated');
 //include MadeLineProto :
 include 'madeline.php';
 //End
-//Functions :
 	function closeConnection($message = 'Bot Is Running...')
 {
     if (php_sapi_name() === 'cli' || isset($GLOBALS['exited'])) {
