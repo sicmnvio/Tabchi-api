@@ -81,7 +81,6 @@ while (true) {
                 if (isset($update['update']['message']['out']) && $update['update']['message']['out']) {
                     continue;
                 }
-               $chatID = $MadelineProto->get_info($update['update']);
                $type = $chatID['type'];
                $chatID = $chatID['bot_api_id'];
                $userID = $update['update']['message']['from_id'];
