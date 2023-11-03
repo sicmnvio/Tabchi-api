@@ -6,8 +6,6 @@ ini_set('error_logs','off')
 error_reporting(0);
 unlink('MadelineProto.log');
 define('MADELINE_BRANCH', 'deprecated');
-//End:
-//include MadeLineProto :
 include 'madeline.php';
 //En
 	function closeConnection($message = 'Bot Is Running...')
