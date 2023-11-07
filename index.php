@@ -60,7 +60,6 @@ while (!$locked) {
     }
 }
 //End 
-//StartMadeLine :
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 $offset = 0;
