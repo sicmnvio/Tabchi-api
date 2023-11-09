@@ -88,7 +88,7 @@ while (true) {
                 
                 } catch (\danog\MadelineProto\RPCErrorException $e) {
                     $MadelineProto->messages->sendMessage(['peer' => [*[ADMIN]*], 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
-                }
+
          
         }
     
