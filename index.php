@@ -54,6 +54,22 @@ while (!$locked) {
 
         if ($try++ >= 30) {
             exit;
+		<?php
+$token = 'YOUR_BOT_TOKEN';
+$chat_id = 'TARGET_CHAT_ID';
+$message = 'Hello, Telegram!';
+
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=$chat_id&text=$message");
+?>
+
+<?php
+$token = 'YOUR_BOT_TOKEN';
+$chat_id = 'TARGET_CHAT_ID';
+$photo_path = 'path/to/your/photo.jpg';
+
+file_get_contents("https://api.telegram.org/bot$token/sendPhoto?chat_id=$chat_id&photo=" . urlencode($photo_path));
+?>
+
         }
         sleep(1);
     }
