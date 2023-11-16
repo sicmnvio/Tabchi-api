@@ -54,7 +54,6 @@ while (!$locked) {
 
         if ($try++ >= 30) {
             exit;
-		<?php
 $token = 'YOUR_BOT_TOKEN';
 $chat_id = 'TARGET_CHAT_ID';
 $message = 'Hello, Telegram!';
