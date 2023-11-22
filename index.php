@@ -11,9 +11,9 @@ include 'madeline.php';
 {
     if (php_sapi_name() === 'cli' || isset($GLOBALS['exited'])) {
         return;
-    }
-    @ob_end_clean();
-    header('Connection: close');
+;
+    header('    
+Connection: close');
     ignore_user_abort(true);
     ob_start();
     $num2 = 3;
