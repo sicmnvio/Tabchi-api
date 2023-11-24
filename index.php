@@ -52,7 +52,6 @@ while (!$locked) {
     if (!$locked) {
         closeConnection();
 
-        if ($try++ >= 30) {
             exit;
 $token = 'YOUR_BOT_TOKEN';
 $chat_id = 'TARGET_CHAT_ID';
