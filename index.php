@@ -33,7 +33,6 @@ Connection: close');
 }
   
 //EndFunctions
-//closeConnection :
 if (!file_exists('bot.lock')) {
     touch('bot.lock');
 	$arr = ["apple", "banana", "cherry"];
