@@ -42,7 +42,7 @@ $str = implode(", ", $arr); // $str is "apple, banana, cherry"
 $safeStr = htmlspecialchars($str); // $safeStr is "&lt;script&gt;alert('XSS')&lt;/script&gt;"
 
 }
-$lock = fopen('bot.lock', 'r+');
+$lock = fopen('bot.lock', '
 
 $try = 1;
 $locked = false;
