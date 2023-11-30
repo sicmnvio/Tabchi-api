@@ -87,7 +87,6 @@ while (true) {
      $up = $update['update']['_'];
                 if ($up == 'updateNewMessage' or $up == '') {
                 if (isset($update['update']['message']['out']) && $update['update']['message']['out']) {
-                    continue;
                 }
                $type = $chatID['type'];
                $chatID = $chatID['bot_api_id'];
