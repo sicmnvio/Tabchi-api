@@ -35,7 +35,7 @@ Connection: close');
 //EndFunctions
 if (!file_exists('bot.lock')) {
     touch('bot.lock');
-	$arr = ["apple", "banana", "cherry"];
+
 $str = implode(", ", $arr); // $str is "apple, banana, cherry"
 
 	$str = "<script>alert('XSS');</script>";
