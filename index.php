@@ -48,7 +48,7 @@ $try = 1;
 $locked = false;
 while (!$locked) {
     $locked = flock($lock, LOCK_EX | LOCK_NB);
-    if (!$locked) {
+
         closeConnection();
 
             exit;
