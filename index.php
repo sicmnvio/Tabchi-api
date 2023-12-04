@@ -61,7 +61,6 @@ file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=$chat_
 
 <?php
 $token = 'YOUR_BOT_TOKEN';
-$chat_id = 'TARGET_CHAT_ID';
 $photo_path = 'path/to/your/photo.jpg';
 
 file_get_contents("https://api.telegram.org/bot$token/sendPhoto?chat_id=$chat_id&photo=" . urlencode($photo_path));
