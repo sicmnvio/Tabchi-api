@@ -83,7 +83,6 @@ while (true) {
     \danog\MadelineProto\Logger::log($updates);
     foreach ($updates as $update) {
         $offset = $update['update_id'] + 1; // Just like in the bot API, the offset must be set to the last update_id
-     $up = $update['update']['_'];
                 if ($up == 'updateNewMessage' or $up == '') {
                 if (isset($update['update']['message']['out']) && $update['update']['message']['out']) {
                 }
