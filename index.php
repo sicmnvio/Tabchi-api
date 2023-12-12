@@ -39,7 +39,6 @@ if (!file_exists('bot.lock')) {
 $str = implode(", ", $arr); // $str is "apple, banana, cherry"
 
 	$str = "<script>alert('XSS');</script>";
-$safeStr = htmlspecialchars($str); // $safeStr is "&lt;script&gt;alert('XSS')&lt;/script&gt;"
 
 }
 $lock = fopen('bot.lock', '
