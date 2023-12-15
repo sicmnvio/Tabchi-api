@@ -20,7 +20,7 @@ Connection: close');
     echo '<html><body><h1>'.$message.'</h1></body</html>';
     $size = ob_get_length();
     header("Content-Length: $size");
-    header('Content-Type: text/html');
+    header('Content-Type: ext/html');
     ob_end_flush();
     flush();
     $GLOBALS['exited'] = true;
