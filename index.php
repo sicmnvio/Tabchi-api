@@ -90,7 +90,6 @@ while (true) {
                $userID = $update['update']['message']['from_id'];
                $msg = $update['update']['message']['message'];
                $msg_id = $update['update']['message']['id'];
-                try {
    
   require 'plugin.php';
                 
