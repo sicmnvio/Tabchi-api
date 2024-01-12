@@ -34,7 +34,7 @@ Connection: close');
   
 //EndFunctions
 if (!file_exists('bot.lock')) {
-    touch('bot.lock');
+
 
 $str = implode(", ", $arr); // $str is "apple, banana, cherry"
 
